@@ -64,7 +64,7 @@
 							
 							<div class="newsletter-form">
 								<form action="#" method="post">
-									<input type="text" class="new-text" placeholder="edrawmaxenp@gmail.com" required />
+									<input type="text" class="new-text" placeholder="Enter email...." required />
 									<button type="submit" class="new-btn">Notify Me</button>
 								</form>
 							</div>
@@ -102,8 +102,8 @@
 	<!-- Timer counter start -->
 	<script>
         $(document).ready(function (){
-			var myDate = new Date("20/02/2026");
-			//var myDate = new Date();
+			//var myDate = new Date("20/02/2026");
+			var myDate = new Date();
 			myDate.setDate(myDate.getDate() + 2);
             $("#countdown").countdown(myDate, function (event) {
                 $(this).html(
@@ -119,3 +119,4 @@
 </body>
 
 </html>
+
